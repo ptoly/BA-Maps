@@ -251,6 +251,21 @@ class Aoe_TemplateHints_Helper_BlockInfo extends Mage_Core_Helper_Abstract {
 		if ($info['name'] != $info['alias'] && $info['alias']) {
 			$title .= ' (alias: ' . $info['alias'] . ')';
 		}
+
+    // FCT | mod to add in xml file name
+    $append = '';
+    switch($title){
+      case 'header':
+      case 'top.links (alias: topLinks)';
+        $append = 'page.xml';
+        break;
+      case 'top.search (alias: topSearch)':
+        $append = 'catalog.xml';
+        break;
+    }
+
+    $title = 'name= '.$title.'<br/>xml file= '.$append;
+
 		return $title;
 	}
 

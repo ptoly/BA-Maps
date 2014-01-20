@@ -2,6 +2,15 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8403",
   "files" : {
+    "\/js\/jquery.qtip.min.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/jquery.qtip.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/js\/no-conflict-ck.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -11,17 +20,6 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/no-conflict-ck-ck.js",
-      "fileType" : 64
-    },
-    "\/js\/jquery.tooltipster.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/jquery.tooltipster.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/jquery.tooltipster.min-ck.js",
       "fileType" : 64
     },
     "\/js\/map.js" : {
@@ -44,26 +42,26 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/js\/jquery.qtip.js" : {
+    "\/js\/map-ck.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/jquery.qtip.js",
+      "inputAbbreviatedPath" : "\/js\/map-ck.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/jquery.qtip-ck.js",
+      "outputAbbreviatedPath" : "\/js\/map-ck-ck.js",
       "fileType" : 64
     },
-    "\/js\/no-conflict.js" : {
+    "\/js\/jquery.qtip.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/no-conflict.js",
+      "inputAbbreviatedPath" : "\/js\/jquery.qtip.min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/no-conflict-ck.js",
+      "outputAbbreviatedPath" : "\/js\/jquery.qtip.min-ck.js",
       "fileType" : 64
     },
     "\/js\/tooltipster.css" : {
@@ -101,17 +99,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/js\/jquery.qtip.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/jquery.qtip.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/jquery.qtip.min-ck.js",
-      "fileType" : 64
-    },
     "\/js\/pageguide.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -121,6 +108,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/pageguide.min-ck.js",
+      "fileType" : 64
+    },
+    "\/js\/jquery.qtip.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/jquery.qtip.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/jquery.qtip-ck.js",
       "fileType" : 64
     },
     "\/js\/jquery-1.10.2.min.js" : {
@@ -134,26 +132,15 @@
       "outputAbbreviatedPath" : "\/js\/jquery-1.10.2.min-ck.js",
       "fileType" : 64
     },
-    "\/js\/map-ck.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/map-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/map-ck-ck.js",
-      "fileType" : 64
-    },
-    "\/js\/imagesloaded.pkg.min.js" : {
+    "\/js\/no-conflict.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/imagesloaded.pkg.min.js",
+      "inputAbbreviatedPath" : "\/js\/no-conflict.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/imagesloaded.pkg.min-ck.js",
+      "outputAbbreviatedPath" : "\/js\/no-conflict-ck.js",
       "fileType" : 64
     },
     "\/js\/pageguide.js" : {
@@ -167,21 +154,34 @@
       "outputAbbreviatedPath" : "\/js\/pageguide-ck.js",
       "fileType" : 64
     },
+    "\/js\/imagesloaded.pkg.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/imagesloaded.pkg.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/imagesloaded.pkg.min-ck.js",
+      "fileType" : 64
+    },
+    "\/js\/jquery.tooltipster.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/jquery.tooltipster.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/jquery.tooltipster.min-ck.js",
+      "fileType" : 64
+    },
     "\/css\/map.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/map.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/js\/jquery.qtip.min.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/jquery.qtip.min.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     }
