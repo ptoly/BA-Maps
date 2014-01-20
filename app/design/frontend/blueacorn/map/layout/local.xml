@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * local.xml
+ *
+ * Local layout modifications for our local theme
+ *
+ * @category    design
+ * @package     blueacorn
+ * @copyright   Copyright (c) 2014 BlueAcorn.
+ */
+-->
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>js/tooltipster.css</name>
+            </action>
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>css/map.css</name>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>js/jquery.tooltipster.min.js</name>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>js/map.js</name>
+            </action>
+        </reference>
+    </default>
+
+</layout>
